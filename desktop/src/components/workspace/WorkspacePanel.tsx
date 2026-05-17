@@ -666,7 +666,6 @@ function CodeSurface({
           </div>
         )}
       </div>
-      <FloatingSelectionMenu selection={selectionMenu} onAdd={addCurrentSelectionToChat} onDismiss={() => setSelectionMenu(null)} />
         </Highlight>
       ) : (
         <Highlight
